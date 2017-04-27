@@ -1,0 +1,137 @@
+.taskbar {
+	-fx-background-color: #222;
+	-fx-padding: 5px;
+}
+.infobar {
+	-fx-background-color: #222;
+	//-fx-padding: 5px;
+}
+
+.background {
+    -fx-background-image: url("wall.jpg");
+}
+
+.startbtn {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+    -fx-background-color: #222;
+}
+.startbtn:hover {
+	-fx-background-color: #555;
+}
+
+.clock {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+}
+
+.startbtn:active {
+    -fx-text-fill: WHITE;
+}
+
+.fsb {
+	-fx-graphic: url("fs16.png");
+	-fx-background-color: #222;
+}
+
+.startmenu {
+	-fx-background-color: #222;
+	-fx-padding: 15;
+	
+}
+
+.npst {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+    -fx-text-padding: 5px;
+	-fx-text-fill: #eee;
+    -fx-background-color: #222;
+    -fx-graphic: url("np.png");
+}
+
+.filest {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+    -fx-background-color: #222;
+    -fx-graphic: url("fold.png");
+}
+
+.solst {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+    -fx-background-color: #222;
+    -fx-graphic: url("sol.png");
+}
+
+.about {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+    -fx-background-color: #222;
+    -fx-graphic: url("info.png");
+}
+
+.about:hover {
+	-fx-background-color: #555;
+}
+.npst:hover {
+	-fx-background-color: #555;
+}
+.filest:hover {
+	-fx-background-color: #555;
+}
+.solst:hover {
+	-fx-background-color: #555;
+}
+
+.aboutokaybtn {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+    -fx-background-color: #222;
+}
+.aboutokaybtn:hover {
+	-fx-background-color: #555;
+}
+
+.aboutlabel {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 5;
+	-fx-text-fill: #eee;
+}
+
+.aboutlayout {
+    -fx-background-color: #333;
+}
+
+.ulbl {
+    -fx-font: 16px "Segoe UI";
+    -fx-padding: 0 0 100 0;
+	-fx-text-fill: #eee;
+    //-fx-graphic: url("sol.png");
+}
+
+.treeview .tree-cell {
+    -fx-background-color: #222 ;
+    -fx-text-fill: #ffffff ;
+}
+.treeview .tree-cell:expanded {
+    -fx-background-color: #333 ;
+} 
+
+.treeview .tree-cell:selected {
+    -fx-background-color: #555 ;
+} 
+
+.notepadfield {
+	-fx-font: 16px "Segoe UI";
+	-fx-text-fill: #eee ;
+}
+
+.notepadfield .content{
+	-fx-background-color: #222 ;
+}
